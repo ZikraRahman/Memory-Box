@@ -1,0 +1,17 @@
+{
+  "name": "memorybox",
+  "version": "0.1.0",
+  "description": "Private, browser-based screenshot OCR search demo",
+  "author": "MemoryBox contributors",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.renderer.json",
+    "preview": "vite preview"
+  },
+  "devDependencies": { "@types/react": "^18.3.12", "@types/react-dom": "^18.3.1", "@vitejs/plugin-react": "^4.3.4", "typescript": "^5.7.2", "vite": "^5.4.10", "vitest": "^2.1.8" },
+  "dependencies": { "react": "^18.3.1", "react-dom": "^18.3.1", "tesseract.js": "^5.1.1" }
+}

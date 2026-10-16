@@ -1,0 +1,9 @@
+node_modules/
+dist/
+release/
+.memorybox/
+*.db
+*.db-*
+cache/
+models/
+.env
